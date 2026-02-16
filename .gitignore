@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Environment variables
+.env
+.env.local
+
+# Mac
+.DS_Store
+
+# Streamlit
+.streamlit/
+
+# Database
+greenreceipt.db
