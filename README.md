@@ -27,3 +27,14 @@ If you downloaded ZIP: unzip and open the folder in Terminal.
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
+## Setup Instructions
+
+1. Install dependencies:
+pip install -r requirements.txt
+
+2. Set your OpenAI API key:
+export OPENAI_API_KEY="YOUR_KEY"
+
+3. Run the app:
+streamlit run app.py
+
